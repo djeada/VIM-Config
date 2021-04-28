@@ -3,16 +3,17 @@
 <h1>Navigation</h1>
 
 <i>h</i> | Move left
---|--
+--|--|
 <i>j</i> | Move down
---|--
+--|--|
 <i>k</i> | Move up
---|--
+--|--|
 <i>l</i> | Move right
---|--
+--|--|
 <i>H</i> | Top line on screen
---|--
+--|--|
 <i>M</i> | Middle line on screen
+
 <i>L</i>   Bottom line on screen </br>
 <i>10j</i>  Move down 10 lines </br>
 <i>gg</i>   First line of the file </br> 
