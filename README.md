@@ -3,6 +3,7 @@
 <h1>Navigation</h1>
 
 | <i>h</i> | Move left |
+| --- | --- |
 | <i>j</i> | Move down |
 | <i>k</i> | Move up |
 | <i>l</i> | Move right |
