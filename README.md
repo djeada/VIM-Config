@@ -2,7 +2,7 @@
 
 <h1>Navigation</h1>
 
-<i>h</i>    Move left </br>
+<i>h</i>   Move left </br>
 <i>j</i>    Move down </br>
 <i>k</i>    Move up </br>
 <i>l</i>    Move right </br>
