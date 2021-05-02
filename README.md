@@ -1,7 +1,7 @@
 # VIM
 My vim configuration + vim cheat sheet.
 
-<h1>Installing plugins with vim-plug<h1>
+<h1>Installing plugins with vim-plug</h1>
 
 Open the terminal and run the following command:
 
