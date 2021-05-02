@@ -12,7 +12,7 @@ $ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 Add following text to your ~/.vimrc file:
 
-```bash
+```vim
 call plug#begin()
 Plug '-HERE-GOES-PLUGIN-NAME'
 call plug#end()
