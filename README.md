@@ -1,7 +1,29 @@
 # VIM
 My vim configuration + vim cheat sheet.
 
-<h1>Navigation</h1>
+<h1>Installing plugins with vim-plug<h1>
+
+Open the terminal and run the following command:
+
+```bash
+$ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+```
+
+Add following text to your ~/.vimrc file:
+
+```bash
+call plug#begin()
+Plug '-HERE-GOES-PLUGIN-NAME'
+call plug#end()
+```
+Then open any file with VIM and run the following command:
+
+```vim
+:PlugInstall
+```
+
+<h1>Navigation<h1>
 
 | Command | Description |
 | --- | --- |
