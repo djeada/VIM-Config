@@ -1,4 +1,5 @@
 # VIM
+My vim configuration + vim cheat sheet.
 
 <h1>Navigation</h1>
 
