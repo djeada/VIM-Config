@@ -23,7 +23,7 @@ Then open any file with VIM and run the following command:
 :PlugInstall
 ```
 
-<h1>Navigation<h1>
+<h1>Navigation</h1>
 
 | Command | Description |
 | --- | --- |
