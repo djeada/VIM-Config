@@ -58,3 +58,10 @@ Then open any file with VIM and run the following command:
 | <i>r</i> | Overwrite one character and return to command mode |
 | <i>U</i> | Undo |
 | <i>Ctrl+R</i> | Redo |
+
+<h1>Searching</h1>
+
+| Command | Description |
+| --- | --- |
+| <i>noh</i> | Get rid of Vim's highlight after searching text |
+
