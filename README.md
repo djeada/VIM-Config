@@ -59,7 +59,7 @@ Then open any file with VIM and run the following command:
 | <i>U</i> | Undo |
 | <i>Ctrl+R</i> | Redo |
 
-<h1>Searching</h1>
+<h1>Search and replace</h1>
 
 | Command | Description |
 | --- | --- |
@@ -84,3 +84,5 @@ Then open any file with VIM and run the following command:
 | <i>w newname</i> | Continue editing the original file while saving a copy of the current file as ‘newname.' |
 | <i>q!</i> | Close a file without saving |
 | <i>x</i> | Write any changes to the file and close the file |
+
+<h1>Working with multiple files</h1>
