@@ -65,3 +65,22 @@ Then open any file with VIM and run the following command:
 | --- | --- |
 | <i>noh</i> | Get rid of Vim's highlight after searching text |
 
+<h1>Mode switching</h1>
+
+| Command | Description |
+| --- | --- |
+| <i>i</i> | Go into insert mode |
+| <i>:</i> | Go into command mode |
+| <i>R</i> | Go into replace mode |
+| <i>v</i> | Go into visual mode |
+| <i>esc</i> | Go into normal mode |
+
+<h1>Opening and closing files</h1>
+
+| Command | Description |
+| --- | --- |
+| <i>w</i> | Save the current file |
+| <i>wq</i> | Saves and closes the current file; exits vim if no open files are present |
+| <i>w newname</i> | Continue editing the original file while saving a copy of the current file as ‘newname.' |
+| <i>q!</i> | Close a file without saving |
+| <i>x</i> | Write any changes to the file and close the file |
