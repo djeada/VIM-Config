@@ -59,6 +59,13 @@ Then open any file with VIM and run the following command:
 | <i>U</i> | Undo |
 | <i>Ctrl+R</i> | Redo |
 
+<h1>Undo and redo</h1>
+
+| Command | Description |
+| --- | --- |
+| <i>u</i> | undo |
+| <i>ctrl + r</i> | redo |
+
 <h1>Search and replace</h1>
 
 | Command | Description |
