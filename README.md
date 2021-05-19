@@ -93,6 +93,7 @@ Then open any file with VIM and run the following command:
 | <i>x</i> | Write any changes to the file and close the file |
 
 <h1>Working with multiple files</h1>
+
 | Command | Description |
 | --- | --- |
 | <i>e filename</i> | Edit a file |
