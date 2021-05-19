@@ -93,3 +93,11 @@ Then open any file with VIM and run the following command:
 | <i>x</i> | Write any changes to the file and close the file |
 
 <h1>Working with multiple files</h1>
+| Command | Description |
+| --- | --- |
+| <i>e filename</i> | Edit a file |
+| <i>tabe</i> | Create a new tab |
+| <i>gt</i> | Go to next tab |
+| <i>gT</i> | Go to previous tab |
+| <i>vs[plit] file</i> | open a file in a new buffer and vertically split window |
+| <i>sp[lit] file</i> | open a file in a new buffer and horizontally split window |
