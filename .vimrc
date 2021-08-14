@@ -10,10 +10,12 @@ set novisualbell
 
 " Whitespace
 set wrap
-set tabstop=2
-set shiftwidth=2
-set softtabstop=2
+set tabstop=4
+set shiftwidth=4
+set smarttab
 set expandtab
+set smartindent
+set softtabstop=2
 set noshiftround
 
 " Move up/down editor lines
