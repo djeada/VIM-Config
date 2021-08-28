@@ -71,6 +71,9 @@ Then open any file with VIM and run the following command:
 | Command | Description |
 | --- | --- |
 | <i>noh</i> | Get rid of Vim's highlight after searching text |
+| <i>/pattern</i> | Search for pattern |
+| <i>?pattern</i> | Search backward for pattern |
+| <i>:%s/xxx/yyy/g</i> | Replace all occurrences of xxx in the file with yyy  |
 
 <h1>Mode switching</h1>
 
