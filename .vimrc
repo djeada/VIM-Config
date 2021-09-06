@@ -49,6 +49,14 @@ map <leader>q gqip
 set listchars=tab:▸\ ,eol:¬
 map <leader>l :set list!<CR> " Toggle tabs and EOL
 
+" Vim backup
+set backup
+set writebackup
+set backupdir=~/.vim/backup//
+
+" backup names in following format: file_name_2015-04-05.14:59
+au BufWritePre * let &bex = '_' . strftime("%F.%H:%M")
+
 call plug#begin('~/.vim/plugged')
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 call plug#end()
