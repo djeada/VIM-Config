@@ -105,3 +105,4 @@ Then open any file with VIM and run the following command:
 | <i>gT</i> | Go to previous tab |
 | <i>vs[plit] file</i> | open a file in a new buffer and vertically split window |
 | <i>sp[lit] file</i> | open a file in a new buffer and horizontally split window |
+| <i>ctrl + w</i> | navigate to the next split |
