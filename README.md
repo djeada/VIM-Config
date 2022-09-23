@@ -1,14 +1,26 @@
 # VIM
 My vim configuration + vim cheat sheet.
 
-<h1>Installing plugins with vim-plug</h1>
+## Installing VIM
+
+Check if VIM is already installed:
+
+    which vim
+
+On Debian based systems:
+
+    apt install vim
+    
+On Arch based systems:
+
+    pacman -S vim
+
+## Installing plugins with vim-plug
 
 Open the terminal and run the following command:
 
-```bash
-$ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
-  https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
-```
+    curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 Add following text to your ~/.vimrc file:
 
@@ -23,7 +35,7 @@ Then open any file with VIM and run the following command:
 :PlugInstall
 ```
 
-<h1>Navigation</h1>
+## Navigation
 
 | Command | Description |
 | --- | --- |
@@ -46,7 +58,7 @@ Then open any file with VIM and run the following command:
 | <i>w</i> | Beginning of next word |
 | <i>%</i> | Move to matching parenthesis, bracket or brace |
 
-<h1>Editing</h1>
+## Editing
 
 | Command | Description |
 | --- | --- |
@@ -59,14 +71,14 @@ Then open any file with VIM and run the following command:
 | <i>U</i> | Undo |
 | <i>Ctrl+R</i> | Redo |
 
-<h1>Undo and redo</h1>
+## Undo and redo
 
 | Command | Description |
 | --- | --- |
 | <i>u</i> | undo |
 | <i>ctrl + r</i> | redo |
 
-<h1>Search and replace</h1>
+## Search and replace
 
 | Command | Description |
 | --- | --- |
@@ -75,7 +87,7 @@ Then open any file with VIM and run the following command:
 | <i>?pattern</i> | Search backward for pattern |
 | <i>:%s/xxx/yyy/g</i> | Replace all occurrences of xxx in the file with yyy  |
 
-<h1>Mode switching</h1>
+## Mode switching
 
 | Command | Description |
 | --- | --- |
@@ -85,7 +97,7 @@ Then open any file with VIM and run the following command:
 | <i>v</i> | Go into visual mode |
 | <i>esc</i> | Go into normal mode |
 
-<h1>Opening and closing files</h1>
+## Opening and closing files
 
 | Command | Description |
 | --- | --- |
@@ -95,7 +107,7 @@ Then open any file with VIM and run the following command:
 | <i>q!</i> | Close a file without saving |
 | <i>x</i> | Write any changes to the file and close the file |
 
-<h1>Working with multiple files</h1>
+## Working with multiple files
 
 | Command | Description |
 | --- | --- |
