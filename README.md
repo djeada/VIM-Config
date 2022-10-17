@@ -68,8 +68,6 @@ Then open any file with VIM and run the following command:
 | <i>o</i> | Insert a line below the current line, then enter insert mode |
 | <i>O</i> | Insert a line above the current line, then enter insert mode |
 | <i>r</i> | Overwrite one character and return to command mode |
-| <i>U</i> | Undo |
-| <i>Ctrl+R</i> | Redo |
 
 ## Undo and redo
 
