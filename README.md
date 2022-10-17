@@ -99,6 +99,7 @@ Then open any file with VIM and run the following command:
 
 | Command | Description |
 | --- | --- |
+| <i>e filename</i> | Edit a file |
 | <i>w</i> | Save the current file |
 | <i>wq</i> | Saves and closes the current file; exits vim if no open files are present |
 | <i>w newname</i> | Continue editing the original file while saving a copy of the current file as ‘newname.' |
@@ -109,7 +110,6 @@ Then open any file with VIM and run the following command:
 
 | Command | Description |
 | --- | --- |
-| <i>e filename</i> | Edit a file |
 | <i>tabe</i> | Create a new tab |
 | <i>gt</i> | Go to next tab |
 | <i>gT</i> | Go to previous tab |
