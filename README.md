@@ -116,3 +116,11 @@ Then open any file with VIM and run the following command:
 | <i>vs[plit] file</i> | open a file in a new buffer and vertically split window |
 | <i>sp[lit] file</i> | open a file in a new buffer and horizontally split window |
 | <i>ctrl + w</i> | navigate to the next split |
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
