@@ -1,83 +1,92 @@
+# VIM Cheat Sheet
 
-
-## Navigation
+## Basic Movement
 
 | Command | Description |
 | --- | --- |
-| <i>h</i> | Move left |
-| <i>j</i> | Move down |
-| <i>k</i> | Move up |
-| <i>l</i> | Move right |
-| <i>H</i> | Top line on screen |
-| <i>M</i> | Middle line on screen |
-| <i>L</i> | Bottom line on screen |
-| <i>10j</i> | Move down 10 lines |
-| <i>gg</i> | First line of the file | 
-| <i>G</i> | Last line of the file |
-| <i>:20</i> | Line 20 of the file |
-| <i>0</i> | Beginning of current line |
-| <i>^</i> | First non-whitespace character of current line |
-| <i>$</i> | End of current line |
-| <i>e</i> | The end of the current word |
-| <i>b</i> | Beginning of current word |
-| <i>w</i> | Beginning of next word |
-| <i>%</i> | Move to matching parenthesis, bracket or brace |
+| `h` | Move left |
+| `j` | Move down |
+| `k` | Move up |
+| `l` | Move right |
+| `gg` | First line of the file | 
+| `G` | Last line of the file |
+| `:20` | Line 20 of the file |
+| `H` | Top line on screen |
+| `M` | Middle line on screen |
+| `L` | Bottom line on screen |
+| `10j` | Move down 10 lines |
+| `0` | Beginning of current line |
+| `^` | First non-whitespace character of current line |
+| `$` | End of current line |
+
+## Insert Mode
+
+| Command | Description |
+| --- | --- |
+| `i` | Insert before the cursor |
+| `I` | Insert at the beginning of the line |
+| `a` | Insert after the cursor |
+| `A/i> | Insert at the end of the line |
+| `o` | Insert a new line below the current line |
+| `O` | Insert a new line above the current line |
+| `Esc` | Exit insert mode |
 
 ## Editing
 
 | Command | Description |
 | --- | --- |
-| <i>i</i> | Insert before current character |
-| <i>a</i> | Insert after current character |
-| <i>I</i> | Insert at the first non-whitespace character of the line |
-| <i>o</i> | Insert a line below the current line, then enter insert mode |
-| <i>O</i> | Insert a line above the current line, then enter insert mode |
-| <i>r</i> | Overwrite one character and return to command mode |
-
-## Undo and redo
-
-| Command | Description |
-| --- | --- |
-| <i>u</i> | undo |
-| <i>ctrl + r</i> | redo |
-
-## Search and replace
+| `x` | Delete character under cursor |
+| `dd` | Redelete current linedo |
+| `dw` | Delete word from cursor to end of word |
+| `D` | Delete from cursor to end of line |
+| `u` | Undo last change |
+| `Ctrl + r` | Redo |
+  
+## Visual Mode
 
 | Command | Description |
 | --- | --- |
-| <i>noh</i> | Get rid of Vim's highlight after searching text |
-| <i>/pattern</i> | Search for pattern |
-| <i>?pattern</i> | Search backward for pattern |
-| <i>:%s/xxx/yyy/g</i> | Replace all occurrences of xxx in the file with yyy  |
+| `noh` | Get rid of Vim's highlight after searching text |
+| `v` | Start visual mode to select characters |
+| `V` | Start visual mode to select lines |
+| `o` | Move to other end of selection  |
+| `d` | Delete selection |
 
-## Mode switching
-
-| Command | Description |
-| --- | --- |
-| <i>i</i> | Go into insert mode |
-| <i>:</i> | Go into command mode |
-| <i>R</i> | Go into replace mode |
-| <i>v</i> | Go into visual mode |
-| <i>esc</i> | Go into normal mode |
-
-## Opening and closing files
+## Cut, Copy and Paste
 
 | Command | Description |
 | --- | --- |
-| <i>e filename</i> | Edit a file |
-| <i>w</i> | Save the current file |
-| <i>wq</i> | Saves and closes the current file; exits vim if no open files are present |
-| <i>w newname</i> | Continue editing the original file while saving a copy of the current file as ‘newname.' |
-| <i>q!</i> | Close a file without saving |
-| <i>x</i> | Write any changes to the file and close the file |
+| `yy` | Copy current line |
+| `yw` | Copy word from cursor to end of word |
+| `p` | Paste after cursor |
+| `P` | Paste before cursor |
+  
+## Search and Replace
+
+| Command | Description |
+| --- | --- |
+| `/` | Search forward for a pattern |
+| `?` | Search backward for a pattern |
+| `n` | Go to next occurrence |
+| `N` | Go to previous occurrence |
+| `:%s/old/new/g` | Replace all occurrences of "old" with "new" in the whole file |
+  
+## Saving and Quitting
+
+| Command | Description |
+| --- | --- |
+| `w` | Write (save) the file |
+| `wq` | Write (save) and quit VIM |
+| `q/i> | Quit VIM |
+| `q!` | Force quit VIM without saving |
 
 ## Working with multiple files
 
 | Command | Description |
 | --- | --- |
-| <i>tabe</i> | Create a new tab |
-| <i>gt</i> | Go to next tab |
-| <i>gT</i> | Go to previous tab |
-| <i>vs[plit] file</i> | open a file in a new buffer and vertically split window |
-| <i>sp[lit] file</i> | open a file in a new buffer and horizontally split window |
-| <i>ctrl + w</i> | navigate to the next split |
+| `tabe` | Create a new tab |
+| `gt` | Go to next tab |
+| `gT` | Go to previous tab |
+| `vs[plit] file` | Open a file in a new buffer and vertically split window |
+| `sp[lit] file` | Open a file in a new buffer and horizontally split window |
+| `Ctrl + w` | Navigate to the next split |
