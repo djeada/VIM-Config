@@ -26,7 +26,7 @@
 | `i` | Insert before the cursor |
 | `I` | Insert at the beginning of the line |
 | `a` | Insert after the cursor |
-| `A/i> | Insert at the end of the line |
+| `A` | Insert at the end of the line |
 | `o` | Insert a new line below the current line |
 | `O` | Insert a new line above the current line |
 | `Esc` | Exit insert mode |
@@ -77,7 +77,7 @@
 | --- | --- |
 | `w` | Write (save) the file |
 | `wq` | Write (save) and quit VIM |
-| `q/i> | Quit VIM |
+| `q` | Quit VIM |
 | `q!` | Force quit VIM without saving |
 
 ## Working with multiple files
