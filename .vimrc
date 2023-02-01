@@ -1,15 +1,25 @@
+" Compatibility
 set nocompatible
+
+" Filetype detection
 filetype off
 syntax on
 filetype plugin indent on
+
+" Modelines
 set modelines=0
+
+" Line numbers
 set number
 set ruler
 
+" Disable visual bell
 set novisualbell
 
-" Whitespace
+" Word wrap
 set wrap
+
+" Tabs
 set tabstop=4
 set shiftwidth=4
 set smarttab
@@ -18,47 +28,53 @@ set smartindent
 set softtabstop=2
 set noshiftround
 
-" Move up/down editor lines
+" Enhanced movement
 nnoremap j gj
 nnoremap k gk
 
-" Rendering
+" Faster terminal rendering
 set ttyfast
 
 " Status bar
 set laststatus=2
 
-" Last line
+" Show mode, command and search match in status line
 set showmode
 set showcmd
+set showmatch
 
-" Searching
+" Search options
 nnoremap / /\v
 vnoremap / /\v
 set hlsearch
 set incsearch
 set ignorecase
 set smartcase
-set showmatch
-map <leader><space> :let @/=''<cr> " clear search
+map <leader><space> :let @/=''<cr> " clear search highlight
 
 " Formatting
 map <leader>q gqip
 
-" Visualize tabs and newlines
+" Tabs and EOL visualization
 set listchars=tab:▸\ ,eol:¬
-map <leader>l :set list!<CR> " Toggle tabs and EOL
+map <leader>l :set list!<CR> " toggle tabs and EOL visualization
 
-" Vim backup
+" Backup settings
 set backup
 set writebackup
 set backupdir=~/.vim/backup//
 
-" backup names in following format: file_name_2015-04-05.14:59
+" Backup file format: file_name_YYYY-MM-DD.HH:MM
 au BufWritePre * let &bex = '_' . strftime("%F.%H:%M")
 
+" Plugins
 call plug#begin('~/.vim/plugged')
 Plug 'kaicataldo/material.vim', { 'branch': 'main' }
 call plug#end()
 
+" Colorscheme
 colorscheme material
+
+" Tab completion and mouse support
+set wildmenu
+set mouse=a
