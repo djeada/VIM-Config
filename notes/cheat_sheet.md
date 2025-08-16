@@ -36,7 +36,7 @@
 | Command | Description |
 | --- | --- |
 | `x` | Delete character under cursor |
-| `dd` | Redelete current linedo |
+| `dd` | Delete current line |
 | `dw` | Delete word from cursor to end of word |
 | `D` | Delete from cursor to end of line |
 | `u` | Undo last change |
@@ -46,11 +46,12 @@
 
 | Command | Description |
 | --- | --- |
-| `noh` | Get rid of Vim's highlight after searching text |
 | `v` | Start visual mode to select characters |
 | `V` | Start visual mode to select lines |
 | `o` | Move to other end of selection  |
 | `d` | Delete selection |
+
+Tip: Clear search highlight with `:noh` (or use mapping ",h" in this config).
 
 ## Cut, Copy and Paste
 

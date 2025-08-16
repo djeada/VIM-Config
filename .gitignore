@@ -1,0 +1,25 @@
+# Swap/backup/undo
+*.swp
+*.swo
+*~
+.tags
+Session.vim
+
+# Vim plug binaries/artifacts
+vim/plugged/**/node_modules/
+
+# Local dev artifacts
+/.vimrc.local
+/.vscode/
+/.idea/
+**/.pytest_cache/
+**/.mypy_cache/
+**/__pycache__/
+
+# CI
+/.venv/
+/.tox/
+
+# OS junk
+.DS_Store
+Thumbs.db
